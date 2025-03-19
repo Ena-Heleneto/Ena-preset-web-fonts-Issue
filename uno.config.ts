@@ -24,9 +24,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
-        mono: 'DM Mono',
+        lemonada:'Lemonada'
       },
       processors: createLocalFontProcessor(),
     }),
@@ -36,3 +34,8 @@ export default defineConfig({
     transformerVariantGroup(),
   ],
 })
+
+
+// sans: 'DM Sans',
+// serif: 'DM Serif Display',
+// mono: 'DM Mono',
